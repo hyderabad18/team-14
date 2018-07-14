@@ -1,6 +1,6 @@
-div {
+#two{
     width: 500px;
     padding: 20px;
-    border: 300px black;
+    border: 3px solid black;
     margin: 15px; 
 }
