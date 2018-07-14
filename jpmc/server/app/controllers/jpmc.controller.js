@@ -7,6 +7,7 @@ const StudentModel = require('../models/student.js');
 const CorporationModel = require('../models/corporation.js');
 const TestModel = require('../models/test.js');
 const UserModel = require('../models/user.js');
+const SkillsModel = require('../models/skills.js');
 
 
 
@@ -53,8 +54,31 @@ exports.addCorporate = (req, res) => {
 	})
 }
 
+exports.getSkills = (req, res) => {
+    SkillsModel.find()
+    .then(SkillsList => {
+        res.send(SkillsList);
+    }).catch(err => {
+        res.status(500).send({
+            message: err.message || "Some error occurred while retrieving skills."
+        });
+    });
+}
+
+
 exports.addCorporation = (req, res) => {
     CorporationModel.create(req.body, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            res.send(result);
+        }
+    })
+}
+
+exports.addSkills = (req, res) => {
+    SkillsModel.create(req.body, (err, result) => {
         if (err) {
             res.send(err);
         }

@@ -14,21 +14,47 @@ const CheckboxGroup = Checkbox.Group;
 
 const { Header, Content, Footer, Sider } = Layout;
 
-class StudentReg extends Component {
+class CorpReg extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
       
     };
+
+    var skillsList;
+    axios.get('http://localhost:4000/api/jpmc/getskills')
+    .then(res => skillsList = res.data)
+    .then(skillsList => this.setState({skillsList}))
   }
 
   change = (e) => {
-    this.setState({[e.target.name]: e.target.value});
+    this.setState({[e.target.name]: e.target.value}, this.getSectorSkills());
   }
 
-  changeCheckbox = (values) => {
+  componentDidMount() {
+    var skillsList;
+    axios.get('http://localhost:4000/api/jpmc/getskills')
+    .then(res => skillsList = res.data)
+    .then(skillsList => this.setState({skillsList}))
+  }
+
+  getSectorSkills() {
+    if(this.state.sector)
+      for(var i = 0; i < this.state.skillsList.length; i++) {
+        if(this.state.sector === this.state.skillsList[i].sector) {
+          this.setState({sectorSkills: this.state.skillsList[i].skills});
+          break;
+        }
+      }
+  }
+
+  changeDCheckbox = (values) => {
     this.setState({'disabilities': values});
+  }
+
+  changeSCheckbox = (values) => {
+    this.setState({'skillset': values});
   }
 
   submit = () => {
@@ -39,6 +65,7 @@ class StudentReg extends Component {
   render() {
 
     const disabilityOptions = ['Speech', 'Vision', 'Locomotor', 'Intellectual'];
+    const skillOptions = this.state.sectorSkills;
     /*const options = [
       { label: 'Apple', value: 'Apple' },
       { label: 'Pear', value: 'Pear' },
@@ -80,7 +107,11 @@ class StudentReg extends Component {
           
           
           <label for="text"><b>Disabilities</b></label><br/>
-          <CheckboxGroup options={disabilityOptions} onChange={(e) => this.changeCheckbox(e)} />
+          <CheckboxGroup options={disabilityOptions} onChange={(e) => this.changeDCheckbox(e)} />
+
+          
+          <label for="text"><b>Skills</b></label><br/>
+          {this.state.sectorSkills && <CheckboxGroup options={skillOptions} onChange={(e) => this.changeSCheckbox(e)} />}
 
 
           <div onChange={e => this.change(e)}>
@@ -104,4 +135,4 @@ class StudentReg extends Component {
   }
 }
 
-export default StudentReg;
+export default CorpReg;
