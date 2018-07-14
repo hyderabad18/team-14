@@ -1,16 +1,5 @@
-	.post
-	{
-		
-		
-		
-	}
-	.pos{
 	
-	position:absolute;
-		left:8px;
-		z-index: 1;
-	}
-	h1{
+  h1{
     font-family: sans-serif;
     margin-left: 13px;
   margin-top: 0px;
@@ -22,6 +11,8 @@
 	margin-bottom: 0px;
 }
 .topnav {
+  width: 98%;
+  border-radius: 3px;
     background-color: #333;
     overflow: hidden;
 	margin-top:30px;
@@ -43,11 +34,11 @@
     color: black;
 }
 
-/* Add a color to the active/current link */
+/* Add a color to the active/current link 
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
-}
+}*/
 .alg{
 	right:70%;
 	top= 40px;
@@ -102,14 +93,15 @@
 .dropdown:hover .dropdown-content {
   display: block;
 } 
-
+h4{
+  color: gray;
+}
 .HEADINGPART {
   padding-top: 5px;
   margin-top: 0px;
   border-radius: 9px;
   font-family:helvetica; 
-background-color:#2d4d82;
-color: white;
+color: black;
 display:block;
 padding-bottom: 8px;
 }
