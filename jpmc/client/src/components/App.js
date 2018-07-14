@@ -8,6 +8,7 @@ import {
   Redirect
 } from 'react-router-dom';
 import StudentView from './StudentView';
+import StudentReg from './StudentReg';
 import Home from './Home';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <Route path = "/student" render = {() => <StudentView/>}/>
+        <Route path = "/studentreg" render = {() => <StudentReg/>}/>
         <Route exact path = "/" render = {() => <Home/>}/>
       </div>
       </Router>
