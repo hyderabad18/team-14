@@ -2,8 +2,8 @@
 	.post
 	{
 		position: static;
-		margin-top: 0px;
-		margin-bottom: 0px;
+		margin-top: 10px;
+		margin-bottom: 20px;
 		left: 30%;
 		z-index: 1;
 		font-size:30px;
@@ -17,7 +17,6 @@
 	h1{
 	
     padding:20px;
-	margin:0px;
 	text-align:center;
 	line-height: 0%;
 	}	
@@ -51,6 +50,10 @@
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+.alg{
+	right:70%;
+	top= 40px;
 }
 body{
 background-color:#48929B;
