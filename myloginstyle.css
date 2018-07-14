@@ -11,7 +11,7 @@ body, html {
 .bg-img {
     /* The image used */
     background-image: url("img_notebook.jpg");
-
+    
     min-height: 1100px;
 
     /* Center and scale the image nicely */
