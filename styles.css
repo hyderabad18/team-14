@@ -1,12 +1,8 @@
-
 	.post
 	{
-		position: static;
-		margin-top: 10px;
-		margin-bottom: 20px;
-		left: 30%;
-		z-index: 1;
-		font-size:30px;
+		
+		
+		
 	}
 	.pos{
 	
@@ -15,10 +11,11 @@
 		z-index: 1;
 	}
 	h1{
-	
-    padding:20px;
-	text-align:center;
-	line-height: 0%;
+    font-family: sans-serif;
+    margin-left: 13px;
+  margin-top: 0px;
+	font-size:30px;
+  margin-bottom: 0px;
 	}	
 	p {
 	margin-top: 0px;
@@ -105,7 +102,13 @@
   display: block;
 } 
 
-body{
-background-color:#48929B;
-display:block:
+.HEADINGPART {
+  padding-top: 5px;
+  margin-top: 0px;
+  border-radius: 9px;
+  font-family:helvetica; 
+background-color:#2d4d82;
+color: white;
+display:block;
+padding-bottom: 8px;
 }
