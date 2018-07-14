@@ -46,7 +46,7 @@ exports.getCorporates = (req, res) => {
 }
 
 exports.addCorporate = (req, res) => {
-	CorporatioModel.create(req.body, (err, result) => {
+	CorporationModel.create(req.body, (err, result) => {
 		if (err) {
             res.send(err);
         }
@@ -54,6 +54,17 @@ exports.addCorporate = (req, res) => {
             res.send(result);
         }
 	})
+}
+
+exports.addTest = (req, res) => {
+    TestModel.create(req.body, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            res.send(result);
+        }
+    })
 }
 
 exports.getSkills = (req, res) => {
