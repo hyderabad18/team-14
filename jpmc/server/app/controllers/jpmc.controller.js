@@ -165,6 +165,32 @@ exports.addNumbers = (req, res) => {
     })
 }
 
+exports.getQuestionsBySectorLevel = (req, res) => {
+    TestModel.find({sector: req.body.sector}, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            var questions = result[0].questions;
+            var done = req.body.done;
+            var level = req.body.level;
+            var rand = Math.floor(Math.random(0, 1)*100);
+            console.log(rand);
+            console.log(questions.length);
+            for(var i = 0; i < questions.length; i++)
+            {
+                if(questions[i].no === rand && done.indexOf(questions[i].no) == -1)
+                {   
+                    console.log(questions[i]);
+                    res.send(questions[i]);
+                    break;
+                }
+            }
+            
+        }
+    })
+}
+
 /*exports.findMarks = (req, res) => {
     MarksModel.find({class_id: req.body.class_id, subject_id: req.body.subject_id}, (err, result) => {
         if (err) {
