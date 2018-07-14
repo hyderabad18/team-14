@@ -8,6 +8,7 @@ import {
   Redirect
 } from 'react-router-dom';
 import axios from 'axios';
+import MockTest from './MockTest';
 
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -54,8 +55,8 @@ class StudentView extends Component {
             openKeys={this.state.openKeys}
             onOpenChange={this.onOpenChange}
           >
-            <SubMenu key="sub1" title={<span><span>Menu 1</span></span>}>
-             <Menu.Item key="1"> <Link to = "">Sub Menu 1</Link></Menu.Item>
+            <SubMenu key="sub1" title={<span><span>Tests</span></span>}>
+             <Menu.Item key="1"> <Link to = "/mocktest">Mock Test</Link></Menu.Item>
               <Menu.Item key="2"><Link to = "">Sub Menu 1</Link></Menu.Item>
             </SubMenu>
             <SubMenu key="sub2" title={<span><span>Menu 2</span></span>}>
@@ -77,7 +78,7 @@ class StudentView extends Component {
           <Content style={{ margin: '24px 16px 0' }}>
             <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
               <Switch>
-                <Route path="" />
+                <Route path="/student/mocktest" render = {() => <MockTest/>}/>
                 <Route path="" />
                 <Route path="" />
                 <Route path="" />

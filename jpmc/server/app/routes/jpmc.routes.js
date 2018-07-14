@@ -8,6 +8,7 @@ module.exports = (app) => {
     app.post('/api/jpmc/addcorp', jpmc.addCorporation);
     app.post('/api/jpmc/addskills', jpmc.addSkills);
     app.get('/api/jpmc/getskills', jpmc.getSkills);
+    app.post('/api/jpmc/adduser', jpmc.signUpUser);
 
     /*app.post('/api/jpmc/adduser', jpmc.signUpUser);
     app.get('/api/jpmc/checklogin', jpmc.checkLogIn);
