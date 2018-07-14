@@ -1,13 +1,17 @@
 'use strict';
+var MongoClient=require('mongodb').MongoClient;
+var student_url = 'mongodb://localhost/studentsDatabase';
+var corporation_url = 'mongodb://localhost/corporateDatabase';
 
 const StudentModel = require('../models/student.js');
 const CorporationModel = require('../models/corporation.js');
 const TestModel = require('../models/test.js');
-const UserModel = require('../models/user.js');
+const UserModel = require('../models/users.js');
+
 
 
 exports.getStudents = (req, res) => {
-	Student.find()
+	student.find()
 	.then(StudentList => {
         res.send(StudentList);
     }).catch(err => {
@@ -19,6 +23,27 @@ exports.getStudents = (req, res) => {
 
 exports.addStudent = (req, res) => {
 	StudentModel.create(req.body, (err, result) => {
+		if (err) {
+            res.send(err);
+        }
+        else {
+            res.send(result);
+        }
+	})
+}
+exports.getCorporates = (req, res) => {
+	student.find()
+	.then(CorporateList => {
+        res.send(CorporList);
+    }).catch(err => {
+        res.status(500).send({
+            message: err.message || "Some error occurred while retrieving students."
+        });
+    });
+}
+
+exports.addCorporate = (req, res) => {
+	CorporatioModel.create(req.body, (err, result) => {
 		if (err) {
             res.send(err);
         }
@@ -71,7 +96,3 @@ exports.checkLogIn = (req, res) => {
     }
 }
 */
-
-
-
-
