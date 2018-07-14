@@ -5,6 +5,8 @@
   "dependencies": {
     "antd": "^3.6.6",
     "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "passport": "^0.4.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",

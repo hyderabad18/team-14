@@ -88,6 +88,32 @@ exports.addSkills = (req, res) => {
     })
 }
 
+
+exports.signUpUser = (req, res) => {
+    const { email_id, password, type} = req.body
+    UserModel.findOne({ email_id: email_id }, (err, user) => {
+        if (err) {
+            console.log('User.js post error: ', err)
+        } else if (user) {
+            res.json({
+                error: `Sorry, already a user with the email_id: ${email_id}`
+            })
+        }
+        else {
+            const newUser = new UserModel({
+                email_id: email_id,
+                password: password,
+                type: type,
+            })
+            newUser.save((err, savedUser) => {
+                if (err) return res.json(err)
+                res.json(savedUser)
+            })
+        }
+    })
+}
+
+
 /*exports.findMarks = (req, res) => {
     MarksModel.find({class_id: req.body.class_id, subject_id: req.body.subject_id}, (err, result) => {
         if (err) {
@@ -95,29 +121,6 @@ exports.addSkills = (req, res) => {
         }
         else {
             res.send(result);
-        }
-    })
-}
-
-exports.signUpUser = (req, res) => {
-    const { username, password } = req.body
-    UserModel.findOne({ username: username }, (err, user) => {
-        if (err) {
-            console.log('User.js post error: ', err)
-        } else if (user) {
-            res.json({
-                error: `Sorry, already a user with the username: ${username}`
-            })
-        }
-        else {
-            const newUser = new UserModel({
-                username: username,
-                password: password
-            })
-            newUser.save((err, savedUser) => {
-                if (err) return res.json(err)
-                res.json(savedUser)
-            })
         }
     })
 }
