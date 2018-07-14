@@ -6,12 +6,12 @@ var corporation_url = 'mongodb://localhost/corporateDatabase';
 const StudentModel = require('../models/student.js');
 const CorporationModel = require('../models/corporation.js');
 const TestModel = require('../models/test.js');
-const UserModel = require('../models/users.js');
+const UserModel = require('../models/user.js');
 
 
 
 exports.getStudents = (req, res) => {
-	student.find()
+	StudentModel.find()
 	.then(StudentList => {
         res.send(StudentList);
     }).catch(err => {
@@ -51,6 +51,17 @@ exports.addCorporate = (req, res) => {
             res.send(result);
         }
 	})
+}
+
+exports.addCorporation = (req, res) => {
+    CorporationModel.create(req.body, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            res.send(result);
+        }
+    })
 }
 
 /*exports.findMarks = (req, res) => {
