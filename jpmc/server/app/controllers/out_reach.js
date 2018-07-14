@@ -4,7 +4,7 @@ const authToken = '404dbd78f1ec45ed8a67bab9efb9afcc';
 var client = new twilio(accountSid, authToken);
 client.messages
   .create({
-     body: 'This is the ship that made the Kessel Run in fourteen parsecs?',
+     body: 'Want to experience a new unique platform to connect companies and sutuednts with disabilities? Visit www.gwfej.com today!',
     // numbers from reactjs
      from: '+14436489618',
      to: '+91 9618813316'
