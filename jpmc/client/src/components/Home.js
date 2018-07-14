@@ -6,28 +6,42 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
-const { Header, Content, Footer } = Layout;
+import { Layout, Menu, Icon } from 'antd';
+import CorpReg from './CorpReg';
+import StudentReg from './StudentReg';
+import LogIn from './LogIn';
+
+const { Header, Content, Footer, Sider } = Layout;
 
 class Home extends Component {
   render() {
     return (
       <Router>
-      <Layout className="layout">
-    <Header>
-      Youth4Jobs
-    </Header>
-    <Content style={{ padding: '0 50px' }}>
-      <Breadcrumb style={{ margin: '16px 0' }}>
-        <Breadcrumb.Item>Home</Breadcrumb.Item>
-        <Breadcrumb.Item>List</Breadcrumb.Item>
-        <Breadcrumb.Item>App</Breadcrumb.Item>
-      </Breadcrumb>
-      <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>Content</div>
-    </Content>
-    <Footer style={{ textAlign: 'center' }}>
-      Ant Design ©2016 Created by Ant UED
-    </Footer>
-  </Layout>
+      	<div>
+      	<Route path = "/corpreg" component = {<CorpReg/>}/>
+      	<Route path = "/StudentReg" component = {<StudentReg/>}/>
+      	<Route path = "/login" component = {<LogIn/>}/>
+	  	<Layout className="layout">
+		    <Header>
+		      <div className="logo" />
+		      <Menu
+		        theme="dark"
+		        mode="horizontal"
+		        style={{ lineHeight: '64px' }}
+		      >
+		        <Menu.Item key="1"><Link to = "/corpreg">Corporate Registration</Link></Menu.Item>
+		        <Menu.Item key="2"><Link to = "/studentreg">Student Registration</Link></Menu.Item>
+		        <Menu.Item key="3"><Link to = "/login">Log In</Link></Menu.Item>
+		      </Menu>
+		    </Header>
+		    <Content style={{ padding: '0', height: '100vh'}}>
+		    	<h1>Home page content</h1>
+		    </Content>
+		    <Footer style={{ textAlign: 'center' }}>
+		      Youth4Jobs
+		    </Footer>
+	  	</Layout>
+	  	</div>
       </Router>
     );
   }

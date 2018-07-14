@@ -35,12 +35,12 @@ exports.addStudent = (req, res) => {
 	})
 }
 exports.getCorporates = (req, res) => {
-	student.find()
+	CorporationModel.find()
 	.then(CorporateList => {
-        res.send(CorporList);
+        res.send(CorporateList);
     }).catch(err => {
         res.status(500).send({
-            message: err.message || "Some error occurred while retrieving students."
+            message: err.message || "Some error occurred while retrieving corps."
         });
     });
 }

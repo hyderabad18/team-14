@@ -114,7 +114,7 @@ export default class MockTest extends Component {
               <br/>
               <br/>
               </div>
-              <button type="submit" onClick = {this.checkQuestion}>Save</button>
+              <Button type="primary" onClick = {this.checkQuestion}>Save</Button>
               </div>}
     </div>
         
