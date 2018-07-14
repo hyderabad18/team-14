@@ -8,6 +8,7 @@ import {
   Redirect
 } from 'react-router-dom';
 import StudentView from './StudentView';
+import AdminView from './AdminView';
 import CorpReg from './CorpReg';
 import Home from './Home';
 
@@ -17,6 +18,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <Route path = "/student" render = {() => <StudentView/>}/>
+        <Route path = "/admin" render = {() => <AdminView/>}/>
         <Route path = "/corpreg" render = {() => <CorpReg/>}/>
         <Route exact path = "/" render = {() => <Home/>}/>
       </div>
