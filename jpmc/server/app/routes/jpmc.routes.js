@@ -9,6 +9,9 @@ module.exports = (app) => {
     app.post('/api/jpmc/addskills', jpmc.addSkills);
     app.get('/api/jpmc/getskills', jpmc.getSkills);
     app.post('/api/jpmc/adduser', jpmc.signUpUser);
+    app.post('/api/jpmc/addnumbers', jpmc.addNumbers);
+    app.get('/api/jpmc/getnumbers', jpmc.getNumbers);
+    app.post('/api/jpmc/sendmsg', jpmc.sendMsg);
 
     /*app.post('/api/jpmc/adduser', jpmc.signUpUser);
     app.get('/api/jpmc/checklogin', jpmc.checkLogIn);

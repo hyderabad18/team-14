@@ -8,7 +8,9 @@ const CorporationModel = require('../models/corporation.js');
 const TestModel = require('../models/test.js');
 const UserModel = require('../models/user.js');
 const SkillsModel = require('../models/skills.js');
+const PhoneModel = require('../models/phone.js');
 
+var twilio=require('twilio');
 
 
 exports.getStudents = (req, res) => {
@@ -95,7 +97,7 @@ exports.signUpUser = (req, res) => {
         if (err) {
             console.log('User.js post error: ', err)
         } else if (user) {
-            res.json({
+ -           res.json({
                 error: `Sorry, already a user with the email_id: ${email_id}`
             })
         }
@@ -113,6 +115,44 @@ exports.signUpUser = (req, res) => {
     })
 }
 
+exports.sendMsg = (req, res) => {
+    var to_phone = req.body.phone;
+    var msg = req.body.msg;
+    console.log(req.body);
+    const accountSid = 'ACdb0326f0ea7d1adeeb7489e1ac09f816';
+    const authToken = '404dbd78f1ec45ed8a67bab9efb9afcc';
+    var client = new twilio(accountSid, authToken);
+    client.messages
+      .create({
+         body: msg,
+         from: '+14436489618',
+         to: to_phone
+       })
+      .then(message => console.log(message.sid))
+      .done();
+}
+
+exports.getNumbers = (req, res) => {
+    PhoneModel.find()
+    .then(PhoneList => {
+        res.send(PhoneList);
+    }).catch(err => {
+        res.status(500).send({
+            message: err.message || "Some error occurred while retrieving numbers."
+        });
+    });
+}
+
+exports.addNumbers = (req, res) => {
+    PhoneModel.create(req.body, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            res.send(result);
+        }
+    })
+}
 
 /*exports.findMarks = (req, res) => {
     MarksModel.find({class_id: req.body.class_id, subject_id: req.body.subject_id}, (err, result) => {

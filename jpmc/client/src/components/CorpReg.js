@@ -68,16 +68,6 @@ class CorpReg extends Component {
 
     const disabilityOptions = ['Speech', 'Vision', 'Locomotor', 'Intellectual'];
     const skillOptions = this.state.sectorSkills;
-    /*const options = [
-      { label: 'Apple', value: 'Apple' },
-      { label: 'Pear', value: 'Pear' },
-      { label: 'Orange', value: 'Orange' },
-    ];
-    const optionsWithDisabled = [
-      { label: 'Apple', value: 'Apple' },
-      { label: 'Pear', value: 'Pear' },
-      { label: 'Orange', value: 'Orange', disabled: false },
-    ];*/
 
     return (
       <Router>
