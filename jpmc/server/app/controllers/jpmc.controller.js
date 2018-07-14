@@ -7,6 +7,7 @@ const StudentModel = require('../models/student.js');
 const CorporationModel = require('../models/corporation.js');
 const TestModel = require('../models/test.js');
 const UserModel = require('../models/user.js');
+const SkillsModel = require('../models/skills.js');
 
 
 
@@ -53,6 +54,18 @@ exports.addCorporate = (req, res) => {
 	})
 }
 
+exports.getSkills = (req, res) => {
+    SkillsModel.find()
+    .then(SkillsList => {
+        res.send(SkillsList);
+    }).catch(err => {
+        res.status(500).send({
+            message: err.message || "Some error occurred while retrieving skills."
+        });
+    });
+}
+
+
 exports.addCorporation = (req, res) => {
     CorporationModel.create(req.body, (err, result) => {
         if (err) {
@@ -64,8 +77,8 @@ exports.addCorporation = (req, res) => {
     })
 }
 
-/*exports.findMarks = (req, res) => {
-    MarksModel.find({class_id: req.body.class_id, subject_id: req.body.subject_id}, (err, result) => {
+exports.addSkills = (req, res) => {
+    SkillsModel.create(req.body, (err, result) => {
         if (err) {
             res.send(err);
         }
@@ -75,25 +88,39 @@ exports.addCorporation = (req, res) => {
     })
 }
 
+
 exports.signUpUser = (req, res) => {
-    const { username, password } = req.body
-    UserModel.findOne({ username: username }, (err, user) => {
+    const { email_id, password, type} = req.body
+    UserModel.findOne({ email_id: email_id }, (err, user) => {
         if (err) {
             console.log('User.js post error: ', err)
         } else if (user) {
             res.json({
-                error: `Sorry, already a user with the username: ${username}`
+                error: `Sorry, already a user with the email_id: ${email_id}`
             })
         }
         else {
             const newUser = new UserModel({
-                username: username,
-                password: password
+                email_id: email_id,
+                password: password,
+                type: type,
             })
             newUser.save((err, savedUser) => {
                 if (err) return res.json(err)
                 res.json(savedUser)
             })
+        }
+    })
+}
+
+
+/*exports.findMarks = (req, res) => {
+    MarksModel.find({class_id: req.body.class_id, subject_id: req.body.subject_id}, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            res.send(result);
         }
     })
 }
