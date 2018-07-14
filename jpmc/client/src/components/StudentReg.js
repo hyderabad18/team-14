@@ -8,13 +8,13 @@ import {
   Redirect
 } from 'react-router-dom';
 import axios from 'axios';
-import { Input, Radio, Checkbox, Button } from 'antd';
+import { Upload, Input, Radio, Checkbox, Button } from 'antd';
 const RadioGroup = Radio.Group;
 const CheckboxGroup = Checkbox.Group;
 
 const { Header, Content, Footer, Sider } = Layout;
 
-class CorpReg extends Component {
+class StudentReg extends Component {
 
   constructor(props) {
     super(props);
@@ -56,10 +56,27 @@ class CorpReg extends Component {
     this.setState({'skillset': values});
   }
 
+  handleUpload = (info) => {
+    const formData = new FormData();
+    formData.append("file", info.file);
+    formData.append("upload_preset", "dnnhelm9");
+    formData.append("api_key", "825526569227411");
+    formData.append("timestamp", (Date.now() / 1000) | 0);
+
+    axios.post("https://api.cloudinary.com/v1_1/codeinfuse/image/upload", formData, {
+      headers: { "X-Requested-With": "XMLHttpRequest" },
+    }).then(response => {
+      const data = response.data;
+      console.log(data);
+      const fileURL = data.secure_url;
+      this.setState({ resume_url: fileURL });
+    })
+  }
+
   submit = () => {
-    axios.post('http://localhost:4000/api/jpmc/addcorp', this.state)
+    axios.post('http://localhost:4000/api/jpmc/addstudent', this.state)
     .then(res => console.log(res))
-    axios.post('http://localhost:4000/api/jpmc/adduser', {email_id: this.state.email, password: this.state.password, type: 'corp'})
+    axios.post('http://localhost:4000/api/jpmc/adduser', {email_id: this.state.email, password: this.state.password, type: 'student'})
     .then(res => console.log(res))
   }
 
@@ -95,10 +112,24 @@ class CorpReg extends Component {
           
           <label for="number"><b>Pincode</b></label>
           <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="pincode" required/>
+
+          <label for="number"><b>LinkedIn</b></label>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="linkedid" required/>
+
+          <label for="number"><b>Facebook ID</b></label>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="fbid" required/>
+
+          <label for="number"><b>WhatsApp Phone</b></label>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="wphoneno" required/>
+
+          <label for="number"><b>Calling Phone</b></label>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="cphoneno" required/>
           
-          <label for="text"><b>Number of vacancies</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Vacancies" name="vacancies" required/>
-          
+          {/*<Upload name = "file" customRequest = {this.handleUpload}>
+            <Button>
+              <Icon type="upload" /> Click to Upload
+            </Button>
+          </Upload>*/}
           
           <label for="text"><b>Disabilities</b></label><br/>
           <CheckboxGroup options={disabilityOptions} onChange={(e) => this.changeDCheckbox(e)} />
@@ -129,4 +160,4 @@ class CorpReg extends Component {
   }
 }
 
-export default CorpReg;
+export default StudentReg;

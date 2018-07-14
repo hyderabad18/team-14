@@ -10,6 +10,7 @@ import {
 import StudentView from './StudentView';
 import AdminView from './AdminView';
 import CorpReg from './CorpReg';
+import StudentReg from './StudentReg';
 import Home from './Home';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <Route path = "/student" render = {() => <StudentView/>}/>
         <Route path = "/admin" render = {() => <AdminView/>}/>
         <Route path = "/corpreg" render = {() => <CorpReg/>}/>
+        <Route path = "/studentreg" render = {() => <StudentReg/>}/>
         <Route exact path = "/" render = {() => <Home/>}/>
       </div>
       </Router>

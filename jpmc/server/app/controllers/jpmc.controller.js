@@ -46,7 +46,7 @@ exports.getCorporates = (req, res) => {
 }
 
 exports.addCorporate = (req, res) => {
-	CorporatioModel.create(req.body, (err, result) => {
+	CorporationModel.create(req.body, (err, result) => {
 		if (err) {
             res.send(err);
         }
@@ -54,6 +54,17 @@ exports.addCorporate = (req, res) => {
             res.send(result);
         }
 	})
+}
+
+exports.addTest = (req, res) => {
+    TestModel.create(req.body, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            res.send(result);
+        }
+    })
 }
 
 exports.getSkills = (req, res) => {
@@ -150,6 +161,32 @@ exports.addNumbers = (req, res) => {
         }
         else {
             res.send(result);
+        }
+    })
+}
+
+exports.getQuestionsBySectorLevel = (req, res) => {
+    TestModel.find({sector: req.body.sector}, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            var questions = result[0].questions;
+            var done = req.body.done;
+            var level = req.body.level;
+            var rand = Math.floor(Math.random(0, 1)*100);
+            console.log(rand);
+            console.log(questions.length);
+            for(var i = 0; i < questions.length; i++)
+            {
+                if(questions[i].no === rand && done.indexOf(questions[i].no) == -1)
+                {   
+                    console.log(questions[i]);
+                    res.send(questions[i]);
+                    break;
+                }
+            }
+            
         }
     })
 }
