@@ -1,0 +1,1203 @@
+[
+	{
+		"name": "Basudha Jain",
+		"email_id": "ornare.lectus@egestas.co.uk",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Patralekha Khan",
+		"email_id": "fermentum@sedsapienNunc.edu",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Naviya Khan",
+		"email_id": "lorem.fringilla@enim.net",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Uthami Patel",
+		"email_id": "risus.Nunc.ac@Etiam.co.uk",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Satyavati Raj",
+		"email_id": "urna.Nunc@SednequeSed.net",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Rutajit Singh",
+		"email_id": "ad.litora@laoreetliberoet.com",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sarvesh Kumar",
+		"email_id": "non.massa.non@metus.com",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Praval Singh",
+		"email_id": "sit.amet.orci@semutdolor.org",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Mohini Ismail",
+		"email_id": "sit@Curabiturutodio.edu",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Madanapal Jain",
+		"email_id": "luctus@Pellentesque.ca",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Anavi Khan",
+		"email_id": "sit.amet.orci@Quisque.net",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Rutajit Ismail",
+		"email_id": "molestie@hymenaeosMaurisut.edu",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Chitrasen Patel",
+		"email_id": "dolor.Donec@dolor.com",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Rahman Singh",
+		"email_id": "magna.Sed@Donecsollicitudinadipiscing.org",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Tripurasundari Singh",
+		"email_id": "hendrerit@aliquam.edu",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Jogindra Singh",
+		"email_id": "Nam.ac.nulla@pede.co.uk",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sagar Ismail",
+		"email_id": "nec.imperdiet@Fusce.net",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Vimala Ismail",
+		"email_id": "Mauris.ut.quam@ametornare.ca",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Niket Patel",
+		"email_id": "vel.faucibus@quisarcu.com",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Gulzarilal Raj",
+		"email_id": "vitae.nibh.Donec@Nullamsuscipitest.org",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Sajal Raj",
+		"email_id": "Nunc.mauris.Morbi@velit.edu",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Hema Singh",
+		"email_id": "in@dictumeuplacerat.com",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Tvesa Singh",
+		"email_id": "et.magna.Praesent@mattisIntegereu.org",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Daiwik Ismail",
+		"email_id": "Donec@aliquam.net",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Sarasa Patel",
+		"email_id": "lorem.vitae.odio@dictumaugue.ca",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Naveen Kumar",
+		"email_id": "mollis.Duis.sit@malesuadavelvenenatis.net",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Ratnangi Jain",
+		"email_id": "velit.dui.semper@malesuada.org",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Kishori Raj",
+		"email_id": "In.faucibus@Utsemper.net",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Sitara Khan",
+		"email_id": "pretium.aliquet.metus@lobortisClass.co.uk",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Premendra Jain",
+		"email_id": "vulputate.ullamcorper.magna@ultricies.com",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Balaraj Ismail",
+		"email_id": "augue.Sed@ac.edu",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Saniya Patel",
+		"email_id": "eget.dictum@semut.org",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Tehzeeb Raj",
+		"email_id": "ante.blandit@DonecegestasDuis.com",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Yashodhan Ismail",
+		"email_id": "iaculis.enim.sit@pretiumaliquetmetus.net",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Ela Raj",
+		"email_id": "mauris.Integer@enimcondimentumeget.edu",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Neelambar Singh",
+		"email_id": "pharetra@ametante.edu",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Avani Jain",
+		"email_id": "ultrices@atvelit.co.uk",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Rasna Khan",
+		"email_id": "euismod.mauris@Etiamvestibulummassa.ca",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Thirumal Khan",
+		"email_id": "non.lacinia@Praesent.com",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Lakshmibanta Ismail",
+		"email_id": "Nunc@aneque.ca",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Chandrakishore Khan",
+		"email_id": "Phasellus@nisinibhlacinia.com",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Rajani Singh",
+		"email_id": "rhoncus.Nullam@ipsumdolor.org",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Nihal Ismail",
+		"email_id": "Donec.nibh.enim@duiquis.org",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Vishnumaya Singh",
+		"email_id": "Cras.vehicula.aliquet@etnuncQuisque.ca",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Amogh Ismail",
+		"email_id": "aliquet.diam.Sed@inceptoshymenaeos.ca",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Natwar Ismail",
+		"email_id": "arcu.eu@In.edu",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Punam Jain",
+		"email_id": "lobortis@Namporttitorscelerisque.ca",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Chandrakiran Ismail",
+		"email_id": "interdum@quis.ca",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Sulochana Raj",
+		"email_id": "turpis.nec.mauris@nisl.edu",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Chitragandha Jain",
+		"email_id": "libero.at.auctor@elitCurabitur.net",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Nabhanya Jain",
+		"email_id": "risus.a.ultricies@consectetueripsum.edu",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Chandramohan Patel",
+		"email_id": "in.consectetuer.ipsum@tempusnonlacinia.ca",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Mrinal Kumar",
+		"email_id": "quis.diam.luctus@urna.net",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Prabhat Khan",
+		"email_id": "Nunc@non.org",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Jaspal Singh",
+		"email_id": "Lorem.ipsum.dolor@Nullamscelerisque.co.uk",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Gaganadipika Singh",
+		"email_id": "nunc.sed.pede@pellentesqueSed.com",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Devabrata Kumar",
+		"email_id": "nonummy@netusetmalesuada.net",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sharan Jain",
+		"email_id": "Phasellus.dapibus@purusmauris.ca",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Dharmachandra Patel",
+		"email_id": "dolor.Donec@tristiquenequevenenatis.edu",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Ilandevan Kumar",
+		"email_id": "urna.Nullam@interdumenimnon.edu",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Mahaganga Raj",
+		"email_id": "Ut.nec@afacilisis.org",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Lalit Jain",
+		"email_id": "primis@enim.ca",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Pari Khan",
+		"email_id": "odio.sagittis@pede.com",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Unmesh Singh",
+		"email_id": "vitae.purus.gravida@convalliserat.org",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Vendan Raj",
+		"email_id": "Class.aptent@duiFuscediam.ca",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Narhari Ismail",
+		"email_id": "enim.Etiam@fringillaornare.net",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Ramita Kumar",
+		"email_id": "molestie.dapibus.ligula@Quisqueporttitoreros.edu",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Daiwik Khan",
+		"email_id": "mi.lacinia@vitae.org",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Narottam Khan",
+		"email_id": "congue.turpis@duiFusce.co.uk",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Tejeshwar Khan",
+		"email_id": "leo@aduiCras.net",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Shadab Ismail",
+		"email_id": "in@parturientmontesnascetur.co.uk",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Pavak Jain",
+		"email_id": "bibendum.sed.est@maurisMorbinon.org",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Bukka Khan",
+		"email_id": "dictum.Proin@vitaeodio.ca",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Shrivatsa Patel",
+		"email_id": "egestas.Aliquam.nec@libero.ca",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Suhela Kumar",
+		"email_id": "aliquet@sedduiFusce.edu",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Triguna Singh",
+		"email_id": "aliquet.nec.imperdiet@Vestibulum.edu",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Isar Khan",
+		"email_id": "sed.pede.Cum@ettristique.co.uk",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Chintana Jain",
+		"email_id": "fermentum.arcu@magna.edu",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Pritikana Patel",
+		"email_id": "egestas@sedpede.net",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Saipratap Khan",
+		"email_id": "augue@idmollisnec.ca",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Daksha Patel",
+		"email_id": "enim.Nunc@pretiumaliquetmetus.edu",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Anahita Ismail",
+		"email_id": "orci.Donec@Vivamusnisi.ca",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Dabeet Ismail",
+		"email_id": "dolor.dolor@elit.net",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Nidhi Kumar",
+		"email_id": "aliquam.arcu@egestaslaciniaSed.net",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Kala Singh",
+		"email_id": "Sed.congue.elit@arcuMorbi.org",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Balaravi Patel",
+		"email_id": "nisl.Maecenas.malesuada@erat.net",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Basanta Ismail",
+		"email_id": "amet@duiFuscediam.ca",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Geshna Singh",
+		"email_id": "netus.et@facilisisloremtristique.ca",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Rithika Ismail",
+		"email_id": "odio@miAliquam.edu",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Kamalika Singh",
+		"email_id": "Ut@ut.edu",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Agnikumara Patel",
+		"email_id": "sociosqu@loremsit.co.uk",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Keshika Ismail",
+		"email_id": "aliquet.magna.a@Proindolor.ca",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Avani Patel",
+		"email_id": "a.facilisis@euismod.edu",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Utsav Patel",
+		"email_id": "faucibus@Nullatemporaugue.ca",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Jeevankala Singh",
+		"email_id": "urna@condimentum.net",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sanyog Singh",
+		"email_id": "at.velit@facilisisnonbibendum.ca",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Tapani Ismail",
+		"email_id": "id.erat@Aliquamauctor.ca",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Neha Patel",
+		"email_id": "elit.Etiam@Integeraliquamadipiscing.org",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Muniya Ismail",
+		"email_id": "elit.a.feugiat@etultrices.ca",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sudha Kumar",
+		"email_id": "odio@nullaDonec.edu",
+		"grade": "A",
+		"disability": "Speech"
+	}
+][
+	{
+		"name": "Chandrahas Singh",
+		"email_id": "tincidunt.tempus.risus@nullaCras.com",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Panna Patel",
+		"email_id": "in.aliquet@aliquetmolestietellus.com",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Rijul Patel",
+		"email_id": "sed@libero.co.uk",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Samhita Jain",
+		"email_id": "Fusce@odioauctor.edu",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Ibhya Jain",
+		"email_id": "ullamcorper.Duis@lobortisquispede.org",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Noopur Jain",
+		"email_id": "est.vitae@Lorem.co.uk",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Rudrapriya Ismail",
+		"email_id": "ornare.placerat.orci@arcu.edu",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Vanhi Kumar",
+		"email_id": "Cras.vulputate.velit@odioa.com",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Kanjari Singh",
+		"email_id": "vulputate@Nullamenim.net",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Gulfam Raj",
+		"email_id": "lobortis.quam.a@Vivamus.co.uk",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Lopa Singh",
+		"email_id": "dui@feugiat.net",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Dakshata Singh",
+		"email_id": "odio@tinciduntaliquamarcu.edu",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Kaushal Jain",
+		"email_id": "elementum.at.egestas@necante.ca",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Harmya Patel",
+		"email_id": "In@cursus.org",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Baladhi Singh",
+		"email_id": "Praesent@CuraePhasellusornare.org",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Acanda Khan",
+		"email_id": "arcu.Sed@eget.com",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Anindita Ismail",
+		"email_id": "mi.fringilla.mi@rhoncus.com",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Mahindra Jain",
+		"email_id": "metus.Vivamus@pharetrautpharetra.net",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Patmanjari Singh",
+		"email_id": "mi@porttitorscelerisque.net",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Jalindra Jain",
+		"email_id": "Cum.sociis.natoque@fames.com",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Hussain Ismail",
+		"email_id": "lectus.ante@metusInnec.net",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Tejeshwar Raj",
+		"email_id": "Fusce.mollis@Donec.net",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Narois Ismail",
+		"email_id": "mauris.id.sapien@noncursusnon.org",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Rasik Patel",
+		"email_id": "volutpat.Nulla@elitfermentum.edu",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Jitendra Singh",
+		"email_id": "accumsan.interdum@veliteu.edu",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Annapurna Jain",
+		"email_id": "amet.consectetuer@elit.ca",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Jagadamba Patel",
+		"email_id": "nisi@mauris.org",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Ishrat Jain",
+		"email_id": "enim.consequat.purus@Maurisquisturpis.org",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Sunanda Singh",
+		"email_id": "augue.ac@elementumategestas.org",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Bhuvana Khan",
+		"email_id": "nunc@malesuada.ca",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Nibodh Raj",
+		"email_id": "pede.Cras@egetlaoreet.co.uk",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Dalbhya Kumar",
+		"email_id": "imperdiet.ornare@anteipsumprimis.ca",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Manali Kumar",
+		"email_id": "eu@euenimEtiam.ca",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Jaisukh Kumar",
+		"email_id": "vel@fringillaest.org",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Ujagar Khan",
+		"email_id": "auctor.odio.a@duinec.ca",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Javin Jain",
+		"email_id": "arcu.Aliquam@dictum.edu",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Palanimurugan Patel",
+		"email_id": "magnis@diamProindolor.net",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Jalanhili Singh",
+		"email_id": "Sed.congue@gravida.ca",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Salim Jain",
+		"email_id": "eget@nisiCum.co.uk",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Prapti Kumar",
+		"email_id": "feugiat.placerat@vitaeposuereat.net",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Akhilesh Raj",
+		"email_id": "augue.malesuada.malesuada@nostraper.org",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Musheer Singh",
+		"email_id": "faucibus@sitametrisus.co.uk",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Shriranga Raj",
+		"email_id": "tincidunt.Donec.vitae@sempererat.co.uk",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Pravar Singh",
+		"email_id": "velit.Aliquam@ornarefacilisiseget.co.uk",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sapan Khan",
+		"email_id": "Donec.porttitor.tellus@ornareplaceratorci.co.uk",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Nirvan Singh",
+		"email_id": "non@QuisquevariusNam.org",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Lipika Khan",
+		"email_id": "enim@et.co.uk",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Suneet Singh",
+		"email_id": "Curae.Donec.tincidunt@mattisvelit.ca",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Ranjini Jain",
+		"email_id": "Phasellus@enim.ca",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Fanishwar Singh",
+		"email_id": "Sed.eu.eros@orciluctus.net",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Bhagaditya Raj",
+		"email_id": "vel.mauris.Integer@nibh.com",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Nikhat Patel",
+		"email_id": "vestibulum@eget.edu",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Upagupta Raj",
+		"email_id": "ultrices.posuere@justo.net",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Mita Kumar",
+		"email_id": "vitae.sodales.nisi@Mauris.co.uk",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Kusuma Singh",
+		"email_id": "vulputate.risus.a@turpisnecmauris.co.uk",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Aparijita Jain",
+		"email_id": "est.ac@varius.net",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Rolee Jain",
+		"email_id": "adipiscing.lobortis@purus.com",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Anita Raj",
+		"email_id": "et.euismod@malesuadamalesuadaInteger.ca",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Jairaj Patel",
+		"email_id": "amet@mollislectuspede.net",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Pavana Khan",
+		"email_id": "ante@acmi.org",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Gopika Patel",
+		"email_id": "ac.eleifend@Phasellus.edu",
+		"grade": "C",
+		"disability": "Speech"
+	},
+	{
+		"name": "Pushpanjali Jain",
+		"email_id": "In@lacusCras.com",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Aravali Raj",
+		"email_id": "eu.tellus.eu@hendrerit.co.uk",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Kashinath Jain",
+		"email_id": "aliquam.iaculis@Integereu.edu",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Soma Kumar",
+		"email_id": "turpis.non.enim@magnased.co.uk",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Shivendra Khan",
+		"email_id": "diam@feugiat.com",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Baladhi Kumar",
+		"email_id": "commodo@Donectemporest.ca",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Jaitra Raj",
+		"email_id": "lorem@sodalespurusin.org",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Supriya Jain",
+		"email_id": "Mauris.ut.quam@erat.edu",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Sasmita Kumar",
+		"email_id": "posuere.enim.nisl@lobortisrisus.ca",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Kamakshi Khan",
+		"email_id": "condimentum.Donec.at@nullaInteger.co.uk",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Jayita Singh",
+		"email_id": "ut.nulla.Cras@et.edu",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Juily Ismail",
+		"email_id": "quis.urna.Nunc@nuncsitamet.co.uk",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Kartik Singh",
+		"email_id": "tempor@pellentesquetellus.edu",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Mukti Patel",
+		"email_id": "imperdiet@luctusut.com",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sadhri Jain",
+		"email_id": "tellus.lorem.eu@nascetur.co.uk",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Akshar Jain",
+		"email_id": "lectus@laciniaatiaculis.org",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Param Ismail",
+		"email_id": "nec.diam.Duis@nisisem.ca",
+		"grade": "B",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Valmiki Raj",
+		"email_id": "Nulla@sitamet.net",
+		"grade": "B",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Valli Raj",
+		"email_id": "natoque.penatibus.et@lorem.co.uk",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Rebanta Ismail",
+		"email_id": "bibendum.ullamcorper@ridiculusmusAenean.com",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Mahmud Patel",
+		"email_id": "Vivamus.rhoncus.Donec@euligula.edu",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Ekachith Ismail",
+		"email_id": "sapien.Aenean.massa@orcitincidunt.com",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Preyasi Ismail",
+		"email_id": "sed@Curabitur.edu",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Ilaiyavan Patel",
+		"email_id": "luctus.Curabitur.egestas@dui.ca",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Yagna Jain",
+		"email_id": "Class@necmollisvitae.org",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Rukmini Kumar",
+		"email_id": "nonummy.Fusce@Donec.com",
+		"grade": "C",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Thangabalu Patel",
+		"email_id": "sed.sem@accumsaninterdumlibero.com",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Manushri Patel",
+		"email_id": "Integer.aliquam@facilisiSedneque.net",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Vismay Ismail",
+		"email_id": "viverra@nunc.ca",
+		"grade": "A",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Rohitasva Khan",
+		"email_id": "ipsum.Donec@egestas.org",
+		"grade": "A",
+		"disability": "Speech"
+	},
+	{
+		"name": "Vishnupriya Patel",
+		"email_id": "sed@antebibendumullamcorper.com",
+		"grade": "C",
+		"disability": "Locomotor"
+	},
+	{
+		"name": "Deshna Kumar",
+		"email_id": "ante.ipsum.primis@enim.ca",
+		"grade": "B",
+		"disability": "Visual"
+	},
+	{
+		"name": "Abhijna Patel",
+		"email_id": "et.pede@malesuadavel.org",
+		"grade": "C",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sinsapa Ismail",
+		"email_id": "mollis.Integer@mollis.org",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Tamonash Kumar",
+		"email_id": "interdum@aliquam.co.uk",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Shrikumar Jain",
+		"email_id": "Nunc.pulvinar.arcu@a.net",
+		"grade": "B",
+		"disability": "Speech"
+	},
+	{
+		"name": "Faarooq Patel",
+		"email_id": "ultricies@ac.edu",
+		"grade": "A",
+		"disability": "Visual"
+	},
+	{
+		"name": "Sarvika Jain",
+		"email_id": "Integer.urna.Vivamus@atvelit.net",
+		"grade": "A",
+		"disability": "Intellectual"
+	},
+	{
+		"name": "Vinodini Patel",
+		"email_id": "luctus.sit@faucibuslectus.ca",
+		"grade": "B",
+		"disability": "Intellectual"
+	}
+]
