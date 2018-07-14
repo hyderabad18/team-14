@@ -1,9 +1,12 @@
 const mongoose = require('mongoose');
 
-const Student = mongoose.Schema({
+const Corporation = mongoose.Schema({
     name: String,
     disability: String,
     email:String,
+    address: String,
+    state: String,
+    pincode: String,
     grade: String,
     city: String,
     address:String,
@@ -13,4 +16,4 @@ const Student = mongoose.Schema({
     sector:String
 });
 
-module.exports = mongoose.model('Student', Student);
+module.exports = mongoose.model('Corporation', Corporation);

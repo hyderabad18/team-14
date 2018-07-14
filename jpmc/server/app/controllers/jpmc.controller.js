@@ -7,7 +7,7 @@ const UserModel = require('../models/user.js');
 
 
 exports.getStudents = (req, res) => {
-	Student.find()
+	StudentModel.find()
 	.then(StudentList => {
         res.send(StudentList);
     }).catch(err => {
@@ -26,6 +26,17 @@ exports.addStudent = (req, res) => {
             res.send(result);
         }
 	})
+}
+
+exports.addCorporation = (req, res) => {
+    CorporationModel.create(req.body, (err, result) => {
+        if (err) {
+            res.send(err);
+        }
+        else {
+            res.send(result);
+        }
+    })
 }
 
 /*exports.findMarks = (req, res) => {

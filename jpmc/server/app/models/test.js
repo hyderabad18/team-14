@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Student = mongoose.Schema({
+const Test = mongoose.Schema({
     "sector 1": {
       "questions":{
         "no":"",
@@ -48,4 +48,4 @@ const Student = mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('Student', Student);
+module.exports = mongoose.model('Test', Test);
