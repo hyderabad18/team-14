@@ -10,6 +10,8 @@ import {
 import axios from 'axios';
 import MockTest from './MockTest';
 import Messaging from './Messaging';
+import AddGrades from './AddGrades';
+
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
 
@@ -59,8 +61,8 @@ class AdminView extends Component {
              <Menu.Item key="1"> <Link to = "/admin/sendmsg">Messaging</Link></Menu.Item>
               <Menu.Item key="2"><Link to = "">Sub Menu 1</Link></Menu.Item>
             </SubMenu>
-            <SubMenu key="sub2" title={<span><span>Menu 2</span></span>}>
-              <Menu.Item key="5"><Link to = "">Sub Menu 2</Link></Menu.Item>
+            <SubMenu key="sub2" title={<span><span>Grades</span></span>}>
+              <Menu.Item key="5"><Link to = "/admin/addgrades">Add Grades</Link></Menu.Item>
               <Menu.Item key="6"><Link to = "">Sub Menu 2</Link></Menu.Item>
             </SubMenu>
             <SubMenu key="sub3" title={<span><span>Menu 3</span></span>}>
@@ -74,11 +76,12 @@ class AdminView extends Component {
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}><h1>hello {this.props.user}</h1></Header>
+          <Header style={{ background: '#fff', padding: 0 }}><h1>Youth4Jobs</h1></Header>
           <Content style={{ margin: '24px 16px 0' }}>
             <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
               <Switch>
                 <Route path="/admin/sendmsg" render = {() => <Messaging/>}/>
+                <Route path="/admin/addgrades" render = {() => <AddGrades/>}/>
                 <Route path="" />
                 <Route path="" />
                 <Route path="" />

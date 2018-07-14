@@ -56,7 +56,7 @@ class StudentView extends Component {
             onOpenChange={this.onOpenChange}
           >
             <SubMenu key="sub1" title={<span><span>Tests</span></span>}>
-             <Menu.Item key="1"> <Link to = "/mocktest">Mock Test</Link></Menu.Item>
+             <Menu.Item key="1"> <Link to = "/student/mocktest">Mock Test</Link></Menu.Item>
               <Menu.Item key="2"><Link to = "">Sub Menu 1</Link></Menu.Item>
             </SubMenu>
             <SubMenu key="sub2" title={<span><span>Menu 2</span></span>}>
@@ -74,7 +74,7 @@ class StudentView extends Component {
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}><h1>hello {this.props.user}</h1></Header>
+          <Header style={{ background: '#fff', padding: 0 }}>Youth4Jobs</Header>
           <Content style={{ margin: '24px 16px 0' }}>
             <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
               <Switch>
