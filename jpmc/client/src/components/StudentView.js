@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Menu, Icon, Button } from 'antd';
+import { Layout, Menu, Icon, Button, Table } from 'antd';
 import {
   BrowserRouter as Router,
   Route,
@@ -37,6 +37,52 @@ class StudentView extends Component {
   
 
   render() {
+    const data = [
+  {
+    "name": "Kshaunish Kumar",
+    "credits": 8
+  },
+  {
+    "name": "Subodh Singh",
+    "credits": 10
+  },
+  {
+    "name": "Pushpa Raj",
+    "credits": 2
+  },
+  {
+    "name": "Waheeda Jain",
+    "credits": 5
+  },
+  {
+    "name": "Dhanashri Singh",
+    "credits": 9
+  },
+  {
+    "name": "Smritiman Khan",
+    "credits": 5
+  },
+  {
+    "name": "Pallavini Ismail",
+    "credits": 9
+  },
+  {
+    "name": "Javed Jain",
+    "credits": 10
+  },
+  {
+    "name": "Sarvadaman Kumar",
+    "credits": 1
+  }]
+
+  const columns = [{
+    title: 'Name',
+    dataIndex: 'name'
+  }, 
+  {
+    title: 'Credits',
+    dataIndex: 'credits'
+  }]
     let that = this;
     /*if(!this.props.user)
       return <Redirect to = "/login"/>*/
@@ -69,6 +115,7 @@ class StudentView extends Component {
               <Switch>
                 <Route path="/student/mocktest" render = {() => <MockTest/>}/>
                 <Route path="/student/careergraphs" component = {CareerGraphs}/>
+                <Route exact path = "/student" render = {() => <div><h1 style = {{textAlign: 'center'}}>Leader Board </h1><br/><Table dataSource = {data} columns = {columns}/></div>}/>
               </Switch>
             </div>
           </Content>
