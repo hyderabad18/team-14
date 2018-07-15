@@ -70,42 +70,44 @@ class CorpReg extends Component {
 
     return (
       <Router>
-        <div class="container" style = {{width: '40%', margin: '10px auto'}}>
+      <div>
+        <div style = {{textAlign: 'center', background: '#cca300'}}>
           <h1>Sign Up</h1>
           <p>Please fill in this form to create an account.</p>
+        </div>
+        <div class="container" style = {{width: '40%', margin: '10px auto'}}>
           <hr/>
 
           <label for="text"><b>Name</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Name" name="name" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Name" name="name" required/><br/>
           
           <label for="text"><b>Email</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Email" name="email" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Email" name="email" required/><br/>
 
           <label for="text"><b>Password</b></label>
-          <Input type="password" onChange = {(e) => this.change(e)} placeholder="Password" name="password" required/>
+          <Input type="password" onChange = {(e) => this.change(e)} placeholder="Password" name="password" required/><br/>
 
           <label for="text"><b>Address</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Address" name="address" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Address" name="address" required/><br/>
           
           <label for="text"><b>State</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter State" name="state" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter State" name="state" required/><br/>
           
           <label for="text"><b>City</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter City" name="city" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter City" name="city" required/><br/>
           
           <label for="number"><b>Pincode</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="pincode" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="pincode" required/><br/>
           
           <label for="text"><b>Number of vacancies</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Vacancies" name="vacancies" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Vacancies" name="vacancies" required/><br/>
           
           
           <label for="text"><b>Disabilities</b></label><br/>
           <CheckboxGroup options={disabilityOptions} onChange={(e) => this.changeDCheckbox(e)} />
 
           
-          <label for="text"><b>Skills</b></label><br/>
-          {this.state.sectorSkills && <CheckboxGroup options={skillOptions} onChange={(e) => this.changeSCheckbox(e)} />}
+          
 
 
           <div onChange={e => this.change(e)}>
@@ -119,10 +121,14 @@ class CorpReg extends Component {
           </RadioGroup>
           </div>
 
+          <label for="text"><b>Skills</b></label><br/>
+          {this.state.sectorSkills && <CheckboxGroup options={skillOptions} onChange={(e) => this.changeSCheckbox(e)} />}
+
           <div class="clearfix">
-            <Button type = "primary" class="cancelbtn">Cancel</Button>
+            <Button type = "primary" class="cancelbtn">Cancel</Button>&nbsp;&nbsp;
             <Button type = "primary" class="signupbtn" onClick = {this.submit}>Sign Up</Button>
           </div>
+        </div>
         </div>
       </Router>
     );

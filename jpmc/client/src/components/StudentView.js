@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import { Layout, Menu, Icon, Button } from 'antd';
 import {
   BrowserRouter as Router,
   Route,
@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import axios from 'axios';
 import MockTest from './MockTest';
-
+import CareerGraphs from './CareerGraphs';
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
 
@@ -57,32 +57,18 @@ class StudentView extends Component {
           >
             <SubMenu key="sub1" title={<span><span>Tests</span></span>}>
              <Menu.Item key="1"> <Link to = "/student/mocktest">Mock Test</Link></Menu.Item>
-              <Menu.Item key="2"><Link to = "">Sub Menu 1</Link></Menu.Item>
+              <Menu.Item key="2">Practice Test</Menu.Item>
             </SubMenu>
-            <SubMenu key="sub2" title={<span><span>Menu 2</span></span>}>
-              <Menu.Item key="5"><Link to = "">Sub Menu 2</Link></Menu.Item>
-              <Menu.Item key="6"><Link to = "">Sub Menu 2</Link></Menu.Item>
-            </SubMenu>
-            <SubMenu key="sub3" title={<span><span>Menu 3</span></span>}>
-              <Menu.Item key="5"><Link to = "">Sub Menu 3</Link></Menu.Item>
-              <Menu.Item key="6"><Link to = "">Sub Menu 3</Link></Menu.Item>
-            </SubMenu>
-            <SubMenu key="sub4" title={<span><span>Menu 4</span></span>}>
-              <Menu.Item key="9"><Link to = "">Sub Menu 4</Link></Menu.Item>
-              <Menu.Item key="10"><Link to = "">Sub Menu 4</Link></Menu.Item>
-            </SubMenu>
+            <Menu.Item key="sub2"> <Link to = "/student/careergraphs">Career Graphs</Link></Menu.Item>
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}>Youth4Jobs</Header>
+          <Header style={{ background: '#fff', padding: 0 }}>&nbsp;&nbsp;<Button type = "primary" disabled = "true">Edit profile</Button><img style = {{float: 'right', height: '8vh'}} src = "http://www.youth4jobs.org/images/youth4jobs-logo.png"/></Header>
           <Content style={{ margin: '24px 16px 0' }}>
             <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
               <Switch>
                 <Route path="/student/mocktest" render = {() => <MockTest/>}/>
-                <Route path="" />
-                <Route path="" />
-                <Route path="" />
-                <Route path="" />
+                <Route path="/student/careergraphs" component = {CareerGraphs}/>
               </Switch>
             </div>
           </Content>

@@ -42,8 +42,8 @@ export default class Messaging extends Component {
 
   render() {
     return (
-      <div>
-        <Input type = "text" name = "msg" placeholder = "Enter message" onChange = {(e) => {this.change(e)}}/>
+      <div style = {{textAlign: 'center'}}>
+        <Input type = "text" name = "msg" placeholder = "Enter message" onChange = {(e) => {this.change(e)}}/><br/><br/>
         <Button type = "primary" onClick = {this.send}>Send</Button>
       </div>
     )

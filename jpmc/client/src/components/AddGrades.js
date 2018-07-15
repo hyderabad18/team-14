@@ -172,7 +172,7 @@ class EditableTable extends React.Component {
     this.setState({ editingKey: '' });
   };
 
-  saveMarks = () => {
+  saveGrades = () => {
   	this.state.data.map(corp => {
   		var mymarks = corp;
   		mymarks.class_id = this.props.info.selected_class;
@@ -209,7 +209,7 @@ class EditableTable extends React.Component {
 
     return (
     	<div>
-    		<Button type = "primary" onClick = {this.saveMarks}>Save Marks</Button>
+    		<Button type = "primary" onClick = {this.saveGrades}>Save Grades</Button>
 	      	<Table
 	        components={components}
 	        bordered

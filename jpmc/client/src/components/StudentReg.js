@@ -87,43 +87,44 @@ class StudentReg extends Component {
 
     return (
       <Router>
-        <div class="container" style = {{width: '40%', margin: '10px auto'}}>
+      <div>
+        <div style = {{textAlign: 'center', background: '#cca300'}}>
           <h1>Sign Up</h1>
           <p>Please fill in this form to create an account.</p>
-          <hr/>
-
+        </div>
+        <div class="container" style = {{width: '40%', margin: '10px auto'}}>
           <label for="text"><b>Name</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Name" name="name" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Name" name="name" required/><br/>
           
           <label for="text"><b>Email</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Email" name="email" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Email" name="email" required/><br/>
 
           <label for="text"><b>Password</b></label>
-          <Input type="password" onChange = {(e) => this.change(e)} placeholder="Password" name="password" required/>
+          <Input type="password" onChange = {(e) => this.change(e)} placeholder="Password" name="password" required/><br/>
 
           <label for="text"><b>Address</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Address" name="address" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Address" name="address" required/><br/>
           
           <label for="text"><b>State</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter State" name="state" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter State" name="state" required/><br/>
           
           <label for="text"><b>City</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter City" name="city" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter City" name="city" required/><br/>
           
           <label for="number"><b>Pincode</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="pincode" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="pincode" required/><br/>
 
           <label for="number"><b>LinkedIn</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="linkedid" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="linkedid" required/><br/>
 
           <label for="number"><b>Facebook ID</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="fbid" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="fbid" required/><br/>
 
           <label for="number"><b>WhatsApp Phone</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="wphoneno" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="wphoneno" required/><br/>
 
           <label for="number"><b>Calling Phone</b></label>
-          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="cphoneno" required/>
+          <Input type="text" onChange = {(e) => this.change(e)} placeholder="Enter Pincode" name="cphoneno" required/><br/>
           
           {/*<Upload name = "file" customRequest = {this.handleUpload}>
             <Button>
@@ -133,12 +134,6 @@ class StudentReg extends Component {
           
           <label for="text"><b>Disabilities</b></label><br/>
           <CheckboxGroup options={disabilityOptions} onChange={(e) => this.changeDCheckbox(e)} />
-
-          
-          <label for="text"><b>Skills</b></label><br/>
-          {this.state.sectorSkills && <CheckboxGroup options={skillOptions} onChange={(e) => this.changeSCheckbox(e)} />}
-
-
           <div onChange={e => this.change(e)}>
           <label for="text"><b>Sector</b></label><br/>
           <RadioGroup name="sector">
@@ -149,12 +144,18 @@ class StudentReg extends Component {
             <Radio value="Banking">Banking</Radio>
           </RadioGroup>
           </div>
-
+          <br/>
+          <label for="text"><b>Skills</b></label><br/>
+          {this.state.sectorSkills && <CheckboxGroup options={skillOptions} onChange={(e) => this.changeSCheckbox(e)} />}
+          <br/>
+          <Button type = "primary" disabled = "true">Upload</Button>
+          <br/>
           <div class="clearfix">
-            <Button type = "primary" class="cancelbtn">Cancel</Button>
+            <Button type = "primary" class="cancelbtn">Cancel</Button>&nbsp;&nbsp;
             <Button type = "primary" class="signupbtn" onClick = {this.submit}>Sign Up</Button>
           </div>
         </div>
+      </div>
       </Router>
     );
   }
