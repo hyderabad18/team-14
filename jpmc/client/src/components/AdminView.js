@@ -61,9 +61,9 @@ class AdminView extends Component {
             <SubMenu key="sub1" title={<span><span>Outreach</span></span>}>
              <Menu.Item key="1"> <Link to = "/admin/sendmsg">Messaging</Link></Menu.Item>
               <Menu.Item key="2"><Link to = "">E-mail</Link></Menu.Item>
-              <Menu.Item key="2"><Link to = "">LinkedIn</Link></Menu.Item>
-              <Menu.Item key="2"><Link to = "">Facebook</Link></Menu.Item>
-              <Menu.Item key="2"><Link to = "">WhatsApp</Link></Menu.Item>
+              <Menu.Item key="3"><Link to = "">LinkedIn</Link></Menu.Item>
+              <Menu.Item key="4"><Link to = "">Facebook</Link></Menu.Item>
+              <Menu.Item key="5"><Link to = "">WhatsApp</Link></Menu.Item>
             </SubMenu>
               <Menu.Item key="sub2"><Link to = "/admin/addgrades">Add Grades</Link></Menu.Item>
               <Menu.Item key="sub3"><Link to = "/admin/matching">Matching</Link></Menu.Item>
