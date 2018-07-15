@@ -11,7 +11,6 @@ const Corporation = mongoose.Schema({
     city: String,
     address:String,
     vacancies:String,
-    disabilities:[String],
     skillset:[String],
     sector:String
 });
