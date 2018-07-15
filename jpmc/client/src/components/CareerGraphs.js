@@ -8,7 +8,7 @@ import {
   Redirect
 } from 'react-router-dom';
 import axios from 'axios';
-import { Input, Radio, Checkbox, Button } from 'antd';
+import { Input, Radio, Checkbox, Button, Row, Col } from 'antd';
 const RadioGroup = Radio.Group;
 const CheckboxGroup = Checkbox.Group;
 
@@ -19,7 +19,10 @@ export default class CareerGraphs extends Component {
   render() {
     return (
       <div>
-        <img src = "https://res.cloudinary.com/vellichor/image/upload/v1531619141/image1.png"/>
+        <Row>
+          <Col xs = {6}><img src = "https://res.cloudinary.com/vellichor/image/upload/v1531624883/skillset.png"/></Col>
+          <Col xs = {6}><img src = "https://res.cloudinary.com/vellichor/image/upload/v1531619141/image1.png"/></Col>
+        </Row>
       </div>
     )
   }
