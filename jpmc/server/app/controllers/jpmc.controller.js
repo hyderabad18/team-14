@@ -78,18 +78,6 @@ exports.getSkills = (req, res) => {
     });
 }
 
-
-exports.addCorporation = (req, res) => {
-    CorporationModel.create(req.body, (err, result) => {
-        if (err) {
-            res.send(err);
-        }
-        else {
-            res.send(result);
-        }
-    })
-}
-
 exports.addSkills = (req, res) => {
     SkillsModel.create(req.body, (err, result) => {
         if (err) {
@@ -190,6 +178,34 @@ exports.getQuestionsBySectorLevel = (req, res) => {
         }
     })
 }
+
+exports.getMatches = (req, res) => {
+    var studentInfo;
+    StudentModel.find({email_id: req.body.email_id}, (err, result) => {
+        if(err) {
+            res.send(err);
+        }
+        else {
+            studentInfo = result[0];
+        }
+    })
+    var corpList;
+    CorporationModel.find()
+    .then(corps => {
+        corpList = corps;
+        var matches = [];
+        for(var i = 0; i < corpList.length; i++)
+            if(corpList[i].disability === studentInfo.disability && corpList[i].grade === studentInfo.grade && corpList[i].sector === studentInfo.sector)
+            {
+                matches.push(corpList[i]);
+            }
+        res.send(matches);
+        })
+    
+    // res.send(corpList);
+}
+
+
 
 /*exports.findMarks = (req, res) => {
     MarksModel.find({class_id: req.body.class_id, subject_id: req.body.subject_id}, (err, result) => {

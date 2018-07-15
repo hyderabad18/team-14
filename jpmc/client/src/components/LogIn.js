@@ -47,16 +47,21 @@ export default class LogIn extends React.Component {
     if (this.state.redirectTo) 
       return <Redirect to={{ pathname: this.state.redirectTo }} />
     else return (
+      <div>
+      <div style = {{textAlign: 'center', background: '#cca300'}}>
+          <h1><br/>Log In<br/><br/></h1>
+      </div>
       <div style = {{width: '30%', margin: '30px auto'}}>
         <div>
           <Input name = "email_id" onChange = {this.handleChange}  prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Email" />
-        </div>
+        </div><br/><br/>
         <div>
           <Input name = "password" onChange = {this.handleChange}  prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />
-        </div>
+        </div><br/><br/>
         <Button type="primary" onClick = {this.handleSubmit} className="login-form-button">
           Log In
         </Button>
+      </div>
       </div> 
       );
   }

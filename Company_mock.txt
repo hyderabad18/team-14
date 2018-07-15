@@ -1,0 +1,1203 @@
+[
+	{
+		"name": "In Ltd",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Risus Nulla Inc.",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Luctus Et Ultrices Incorporated",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Mauris Suspendisse Aliquet Corporation",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "B"
+	},
+	{
+		"name": "A Corp.",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Amet Corp.",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Elit Ltd",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Sit Amet Risus Consulting",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Justo Faucibus Inc.",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Et Consulting",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Metus Corp.",
+		"disability": "Locomotor",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Eget Massa Industries",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Cras Pellentesque Corporation",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Etiam Gravida Inc.",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Montes Nascetur Consulting",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Tellus Corporation",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "At Corp.",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Vivamus Non Ltd",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Nec Imperdiet LLP",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Donec At Arcu Incorporated",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Convallis Incorporated",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Eu Placerat Eget LLC",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Consequat Auctor Nunc Institute",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Gravida Mauris Ut Incorporated",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Nunc Sollicitudin Commodo Inc.",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Mi Duis Risus Ltd",
+		"disability": "Locomotor",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Lacus Quisque Imperdiet Incorporated",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Diam PC",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Erat Company",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Elementum Purus Accumsan Industries",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Ullamcorper Duis At Corporation",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Ligula Incorporated",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Ac Limited",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Ligula Foundation",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Bibendum Donec Foundation",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Dapibus Id Consulting",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "B"
+	},
+	{
+		"name": "Vestibulum Ut Associates",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Fringilla Purus Mauris Corp.",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Praesent Eu Dui Inc.",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Aliquet Sem Ut Ltd",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Tempus Mauris Erat Industries",
+		"disability": "Intellectual",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Orci Lobortis Augue Company",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Arcu Vestibulum Incorporated",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Magna Lorem Associates",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Fusce Industries",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Convallis In Inc.",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Tempus PC",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Morbi Neque Industries",
+		"disability": "Visual",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Nulla Cras Eu Industries",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Tincidunt LLP",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Nunc Ullamcorper Incorporated",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Praesent Interdum Industries",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Porttitor Tellus Industries",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Egestas Nunc Sed LLP",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Nunc Sit Amet Institute",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Eget Mollis Lectus Foundation",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Dictum Industries",
+		"disability": "Locomotor",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Nec Cursus A Consulting",
+		"disability": "Locomotor",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Erat Vel Pede Foundation",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Pharetra Ut Pharetra Institute",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Dictum Cursus Nunc Limited",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Eget Corporation",
+		"disability": "Locomotor",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Consectetuer Incorporated",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "B"
+	},
+	{
+		"name": "Auctor Odio Industries",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Sed Corp.",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "A Ltd",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Auctor Quis Tristique Ltd",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Aliquet LLC",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Elit Industries",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Nunc Associates",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Suspendisse Tristique Corporation",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Leo Vivamus Nibh LLP",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Ridiculus Mus Proin LLC",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Ac Associates",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Quis Arcu Limited",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Porttitor Incorporated",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Aliquet Nec Institute",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Curabitur Egestas Corp.",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Inceptos PC",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Phasellus Dapibus Quam Corporation",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Pellentesque Massa Ltd",
+		"disability": "Locomotor",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Ultrices Sit Amet Ltd",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Sed Nec LLC",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Aliquam Ltd",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Nunc Sed Orci Ltd",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Magna Praesent Interdum Industries",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Felis LLP",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Arcu Et Industries",
+		"disability": "Visual",
+		"sector": "BPO",
+		"grade": "B"
+	},
+	{
+		"name": "Neque Ltd",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Amet Luctus Vulputate Industries",
+		"disability": "Locomotor",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Duis LLP",
+		"disability": "Locomotor",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Cras Vehicula Aliquet Associates",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Suspendisse Company",
+		"disability": "Locomotor",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Semper Dui Lectus Corp.",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Rutrum Fusce Ltd",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Tellus Ltd",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Risus Donec LLP",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Tincidunt Corp.",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Ac Urna Ut Limited",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Vulputate Lacus Cras Limited",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "C"
+	}
+][
+	{
+		"name": "Consectetuer Rhoncus Consulting",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Posuere Consulting",
+		"disability": "Locomotor",
+		"sector": "BPO",
+		"grade": "B"
+	},
+	{
+		"name": "Velit Pellentesque Foundation",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Vestibulum Accumsan Neque Corporation",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "B"
+	},
+	{
+		"name": "Id Ltd",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Ac Turpis Limited",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Sed Pharetra Industries",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Mauris Institute",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Ac Urna Ut Corporation",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Consectetuer Industries",
+		"disability": "Locomotor",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Molestie Sodales Mauris Institute",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Ultricies Ligula Nullam Corp.",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Eu Turpis Foundation",
+		"disability": "Locomotor",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Sociis Natoque Penatibus Corporation",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Dignissim Corporation",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Dolor Elit Pellentesque Consulting",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Et Ltd",
+		"disability": "Intellectual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Porttitor Interdum Ltd",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Pede Suspendisse Dui Consulting",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Sit Amet Luctus Inc.",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Vulputate Eu Associates",
+		"disability": "Intellectual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Sollicitudin Adipiscing Institute",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Ornare Sagittis PC",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Turpis Non Limited",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Nec Urna Et Institute",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Aliquam Iaculis Lacus PC",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Duis Volutpat Corp.",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Pede Nec Ante Corp.",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Porttitor Eros Nec LLP",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Turpis Aliquam Adipiscing Company",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "In Company",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Et Tristique Pellentesque Ltd",
+		"disability": "Locomotor",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Magnis Dis LLP",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Aliquet Magna Inc.",
+		"disability": "Locomotor",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Leo Elementum Sem Associates",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "C"
+	},
+	{
+		"name": "Lacinia Vitae Sodales Company",
+		"disability": "Intellectual",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Aliquam Fringilla Company",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Eu LLP",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Semper Consulting",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Blandit Foundation",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Tellus Nunc Lectus LLP",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Nunc Ltd",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Etiam Ltd",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Vivamus Industries",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Primis LLC",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Quisque Imperdiet Company",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Lorem Fringilla Ornare Consulting",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Sapien Gravida Limited",
+		"disability": "Locomotor",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Risus A LLP",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Donec Tincidunt Company",
+		"disability": "Locomotor",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Bibendum Sed Est Company",
+		"disability": "Locomotor",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Nec Ligula Consectetuer Incorporated",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Et Libero Proin Inc.",
+		"disability": "Visual",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Lobortis Nisi Nibh Inc.",
+		"disability": "Locomotor",
+		"sector": "BPO",
+		"grade": "B"
+	},
+	{
+		"name": "Fermentum Foundation",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Et Commodo At Institute",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Nisi Magna Limited",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Pellentesque Tincidunt Tempus Associates",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Blandit Viverra Donec Company",
+		"disability": "Locomotor",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Fringilla Cursus Limited",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Aliquet Phasellus Fermentum Foundation",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Etiam Bibendum Limited",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Nullam Inc.",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Sociis Corp.",
+		"disability": "Locomotor",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Dolor Donec Fringilla Associates",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "In Tempus Corp.",
+		"disability": "Locomotor",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Sem Company",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Vel Nisl Corporation",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Magna Lorem Ipsum Foundation",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Aliquam Erat Volutpat Corp.",
+		"disability": "Speech",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Nulla Limited",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Mauris Sapien Corp.",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Orci Adipiscing Limited",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "C"
+	},
+	{
+		"name": "Nulla Facilisi Limited",
+		"disability": "Intellectual",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Suscipit Nonummy Fusce PC",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Elit Associates",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Venenatis Lacus Etiam Corporation",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "B"
+	},
+	{
+		"name": "Eget Magna Suspendisse LLP",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Metus LLC",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Mattis Cras Eget Inc.",
+		"disability": "Visual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Eget Metus Ltd",
+		"disability": "Visual",
+		"sector": "Banking",
+		"grade": "A"
+	},
+	{
+		"name": "Vel Sapien LLC",
+		"disability": "Intellectual",
+		"sector": " Manufacturing",
+		"grade": "C"
+	},
+	{
+		"name": "Purus Sapien Gravida PC",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Dignissim Magna LLP",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Nonummy Ac Institute",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Volutpat Nulla Dignissim Associates",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "C"
+	},
+	{
+		"name": "Urna Nullam Corp.",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Nulla Associates",
+		"disability": "Visual",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Curae; Corporation",
+		"disability": "Speech",
+		"sector": " Manufacturing",
+		"grade": "B"
+	},
+	{
+		"name": "Nec Eleifend Non PC",
+		"disability": "Locomotor",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Dis Parturient Montes Ltd",
+		"disability": "Intellectual",
+		"sector": "Retail",
+		"grade": "A"
+	},
+	{
+		"name": "Nam Nulla LLP",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Purus Consulting",
+		"disability": "Locomotor",
+		"sector": " Manufacturing",
+		"grade": "A"
+	},
+	{
+		"name": "Sapien Aenean Foundation",
+		"disability": "Speech",
+		"sector": "Hospitality",
+		"grade": "C"
+	},
+	{
+		"name": "Mauris Erat Eget LLC",
+		"disability": "Visual",
+		"sector": "Hospitality",
+		"grade": "B"
+	},
+	{
+		"name": "Risus Industries",
+		"disability": "Visual",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Amet Diam Eu Ltd",
+		"disability": "Speech",
+		"sector": "Retail",
+		"grade": "B"
+	},
+	{
+		"name": "Nunc Quis Arcu Incorporated",
+		"disability": "Intellectual",
+		"sector": "BPO",
+		"grade": "A"
+	},
+	{
+		"name": "Quisque Porttitor Associates",
+		"disability": "Intellectual",
+		"sector": "Hospitality",
+		"grade": "A"
+	},
+	{
+		"name": "Vitae Purus Gravida Industries",
+		"disability": "Speech",
+		"sector": "BPO",
+		"grade": "A"
+	}
+]

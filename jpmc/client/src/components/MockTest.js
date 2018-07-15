@@ -87,13 +87,14 @@ export default class MockTest extends Component {
     
     if(this.state.levelone) 
       return (
-        <div>
+        <div style = {{textAlign: 'center'}}>
           <h1>Level 1 done</h1>
-          <h2>Grade{this.state.grade}</h2>
+          <h2>Grade {this.state.grade}</h2>
+          <Button type = "primary" disabled = "false">Proceed</Button>
         </div>
       );
     else return (
-    <div>
+    <div  style = {{textAlign: 'center'}}>
               <h1>Level {this.state.level}</h1>
              {this.state.curr_q && <div>
               <div class="tabt">

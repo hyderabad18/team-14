@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import { Layout, Menu, Icon, Button } from 'antd';
 import {
   BrowserRouter as Router,
   Route,
@@ -11,6 +11,7 @@ import axios from 'axios';
 import MockTest from './MockTest';
 import Messaging from './Messaging';
 import AddGrades from './AddGrades';
+import Matching from './Matching';
 
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -59,29 +60,23 @@ class AdminView extends Component {
           >
             <SubMenu key="sub1" title={<span><span>Outreach</span></span>}>
              <Menu.Item key="1"> <Link to = "/admin/sendmsg">Messaging</Link></Menu.Item>
-              <Menu.Item key="2"><Link to = "">Sub Menu 1</Link></Menu.Item>
+              <Menu.Item key="2"><Link to = "">E-mail</Link></Menu.Item>
+              <Menu.Item key="2"><Link to = "">LinkedIn</Link></Menu.Item>
+              <Menu.Item key="2"><Link to = "">Facebook</Link></Menu.Item>
+              <Menu.Item key="2"><Link to = "">WhatsApp</Link></Menu.Item>
             </SubMenu>
-            <SubMenu key="sub2" title={<span><span>Grades</span></span>}>
-              <Menu.Item key="5"><Link to = "/admin/addgrades">Add Grades</Link></Menu.Item>
-              <Menu.Item key="6"><Link to = "">Sub Menu 2</Link></Menu.Item>
-            </SubMenu>
-            <SubMenu key="sub3" title={<span><span>Menu 3</span></span>}>
-              <Menu.Item key="5"><Link to = "">Sub Menu 3</Link></Menu.Item>
-              <Menu.Item key="6"><Link to = "">Sub Menu 3</Link></Menu.Item>
-            </SubMenu>
-            <SubMenu key="sub4" title={<span><span>Menu 4</span></span>}>
-              <Menu.Item key="9"><Link to = "">Sub Menu 4</Link></Menu.Item>
-              <Menu.Item key="10"><Link to = "">Sub Menu 4</Link></Menu.Item>
-            </SubMenu>
+              <Menu.Item key="sub2"><Link to = "/admin/addgrades">Add Grades</Link></Menu.Item>
+              <Menu.Item key="sub3"><Link to = "/admin/matching">Matching</Link></Menu.Item>
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}><h1>Youth4Jobs</h1></Header>
+        <Header style={{ background: '#fff', padding: 0 }}>&nbsp;&nbsp;<Button type = "primary" disabled = "true">Edit profile</Button><img style = {{float: 'right', height: '8vh'}} src = "http://www.youth4jobs.org/images/youth4jobs-logo.png"/></Header>
           <Content style={{ margin: '24px 16px 0' }}>
             <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
               <Switch>
-                <Route path="/admin/sendmsg" render = {() => <Messaging/>}/>
-                <Route path="/admin/addgrades" render = {() => <AddGrades/>}/>
+                <Route path="/admin/sendmsg" component = {Messaging}/>
+                <Route path="/admin/addgrades" component = {AddGrades}/>
+                <Route path="/admin/matching" component = {Matching}/>
                 <Route path="" />
                 <Route path="" />
                 <Route path="" />
